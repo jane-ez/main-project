@@ -1,0 +1,1342 @@
+@media screen and (max-width: 1320px) {
+    .grid .pic-p .yanga {
+        bottom: 8rem;
+        left: 1.5rem;
+    }
+    .grid .micro .microsoft {
+        bottom: 8rem;
+        right: 38rem;
+    }  
+    .box-container .createv p{
+        padding: 0 15rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 1290px) {
+    .grid .micro .microsoft {
+        bottom: 7rem;
+        right: 37rem;
+    } 
+     
+    .successful h1 {
+        font-size: 6rem;
+        letter-spacing: -0.05em;
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+        padding-right: 10rem;
+    }
+    .store-container {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        z-index: 10;
+    }
+    .build .store-container .dest img {
+        width: 33rem;
+        height: 43rem;
+    }
+    .store-container .store {
+        margin-top: 6rem;
+        margin-left: 7rem;
+    }
+    .store-container .store h3 {
+        font-size: 1.7rem;
+    }
+    .store-container .store p {
+        font-size: 1.4rem;
+    }
+    .invoice-container {
+        display: grid;
+        grid-template-columns: 64% 36%;
+        gap: 1rem;
+    }
+    .build .invoice-container .light img {
+        width: 41rem;
+        height: 25rem;
+        margin-top: 1rem;
+    }
+    .invoice-payment h3 {
+        font-size: 1.5rem;
+    }
+    .invoice-payment p {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+    .build .container .invoice-container .invoice-payment .invoice {
+        position: absolute;
+        bottom: 20rem;
+        margin-right: 5rem;
+        padding-right: 2rem;
+    }
+    .p-link {
+        position: absolute;
+        bottom: 1rem;
+        margin-right: 5rem;
+        padding-right: 2rem;
+    }
+    .box-container .createv p {
+        padding: 0 14rem;
+    }
+    .new-revenue {
+        right: 19rem;
+    }
+}
+
+
+@media screen and (max-width: 1250px) {
+    .grid .micro .microsoft {
+        bottom: 8rem;
+        right: 36rem;
+    } 
+    .box-container .createv p {
+        padding: 0 12rem;
+    }
+    .box-container .better-container {
+        margin: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .grid .micro .microsoft {
+        right: 35rem;
+        bottom: 8rem;
+    }  
+
+    .features {
+        margin-right: 3rem;
+    }
+    .unified-set h1 {
+        padding-right: 26rem;
+    }
+    .store-container {
+        gap: 4rem;
+    }
+    .build .store-container .dest img {
+        width: 33rem;
+        height: 40rem;
+    }
+    .store-container .store {
+        margin-top: 4rem;
+        margin-left: 5rem;
+    }
+    .build .invoice-container .light img {
+        width: 38rem;
+        height: 25rem;
+        margin-top: 1rem;
+    }
+    .build .container .invoice-container .invoice-payment .invoice {
+        position: absolute;
+        bottom: 20rem;
+        margin-right: 5rem;
+        padding-right: 1rem;
+    }
+    .p-link {
+        position: absolute;
+        bottom: 1rem;
+        margin-right: 5rem;
+        padding-right: 1rem;
+    }
+    .box-container .createv p {
+        padding: 0 10rem;
+    }
+    .new-revenue {
+        right: 17rem;
+    }
+    .better, .new-revenue, .seamless {
+        height: 23rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 1135px) {
+    .grid .micro .microsoft {
+        right: 33rem;
+        bottom: 8rem;
+    }  
+    
+    .unified-set h1 {
+        padding-right: 22rem;
+    }
+    .checkout {
+        gap: 4rem;
+    }
+    .features {
+        margin-top: 5rem;
+        margin-right: 0rem;
+    }
+    .checkout p {
+        font-size: 1.3rem;
+        padding-right: 0rem;
+    }
+    .get-started {
+        padding: 1rem 1.6rem;
+    }    
+    .image img {
+        width: 19rem;
+    }
+    .easily {
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    }
+    .make {
+        margin-top: 5rem;
+    }
+    .box-container .createv h1 {
+        font-size: 5rem;
+    }
+    .box-container .createv p {
+        padding: 0 10rem;
+    }
+    .better, .new-revenue, .seamless {
+        height: 26rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1080px) {
+    
+    .grid .micro .microsoft {
+        right: 31rem;
+        bottom: 8rem;
+    }  
+    
+    .unified-set h1 {
+        padding-right: 20rem;
+    }
+    .checkout {
+        gap: 4rem;
+    }
+    .features {
+        margin-right: 0rem;
+    }
+    .checkout p {
+        font-size: 1.3rem;
+        padding-right: 0rem;
+    }
+    .get-started {
+        padding: 1.1rem 1.7rem;
+    }
+    .image img {
+        width: 18.5rem;
+    }
+    .successful h1 {
+        font-size: 6rem;
+        letter-spacing: -0.05em;
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+        padding-right: 4rem;
+    }
+    .store-container {
+        gap: 4rem;
+    }
+    .build .store-container .dest img {
+        width: 31rem;
+        height: 40rem;
+    }
+    .store-container .store {
+        margin-top: 4rem;
+        margin-left: 4rem;
+    }
+    .build .invoice-container .light img {
+        width: 35rem;
+        height: 25rem;
+        margin-top: 1rem;
+    }
+    .build .container .invoice-container .invoice-payment .invoice {
+        position: absolute;
+        bottom: 20rem;
+        margin-right: 4rem;
+        padding-right: 0rem;
+    }
+    .p-link {
+        position: absolute;
+        bottom: 1rem;
+        margin-right: 4rem;
+        padding-right: 0rem;
+    }
+    .box-container .createv {
+        padding: 4rem 5rem 3rem 5rem;
+    }
+    .box-container .createv p {
+        padding: 0 10rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1050px) {
+    .grid .micro .microsoft {
+        right: 30rem;
+        bottom: 8.5rem;
+    }  
+    
+    .unified-set h1 {
+        padding-right: 19rem;
+    }
+    .better, .new-revenue, .seamless {
+        height: 28rem;
+    }
+    .new-revenue {
+        right: 14;
+    }
+}
+
+
+
+@media screen and (max-width: 1040px) {
+    .unified-set h1 {
+        padding-right: 16rem;
+    } 
+    .checkout {
+        gap: 4rem;
+    }
+    .features {
+        margin-right: 0rem;
+    }
+    .checkout p {
+        font-size: 1.3rem;
+        padding-right: 0rem;
+    }
+    .get-started {
+        padding: 1.1rem 1.7rem;
+    }
+    .image img {
+        width: 18rem;
+    }
+    .successful h1 {
+        font-size: 6rem;
+        letter-spacing: -0.05em;
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+        padding-right: 2rem;
+    }
+    .build .store-container .dest img {
+        width: 29rem;
+        height: 40rem;
+    }
+    .store-container .store {
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    .build .invoice-container .light img {
+        width: 33rem;
+        height: 25rem;
+        margin-top: 2rem;
+    }
+    .build .container .invoice-container .invoice-payment .invoice {
+        position: absolute;
+        bottom: 20.5rem;
+        margin-right: 2rem;
+        padding-right: 0rem;
+    }
+    .p-link {
+        position: absolute;
+        bottom: 1rem;
+        margin-right: 2rem;
+        padding-right: 0rem;
+    }
+    
+}
+
+@media screen and (max-width: 997px) {
+    .brand-title {
+        margin-left: 3rem;
+    }
+    .signin {
+        padding: 0 1rem;
+        margin-right: 1.5rem;
+        margin-left: 2rem;
+        align-self: center;
+    }
+    .grid .pic-p .yanga {
+        bottom: 9rem;
+    }
+    .grid .micro .microsoft {
+        right: 29rem;
+        bottom: 9rem;
+    } 
+
+    .unified-set h1 {
+        padding-right: 14rem;
+    }
+    .checkout {
+        gap: 4rem;
+    }
+    .features {
+        margin-top: 5rem;
+        margin-right: 0rem;
+    }
+    .checkout h2 {
+        font-size: 1.6rem;
+    }
+    .checkout p {
+        font-size: 1.3rem;
+        padding-right: 0rem;
+    }
+    .get-started {
+        padding: 1.1rem 1.7rem;
+    }
+    .image img {
+        width: 17rem;
+    }
+    .successful h1 {
+        font-size: 6rem;
+        letter-spacing: -0.05em;
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+        padding-right: 0rem;
+    }
+    .build .store-container .dest img {
+        width: 29rem;
+        height: 40rem;
+    }
+    .store-container .store {
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    .build .invoice-container .light img {
+        width: 31rem;
+        height: 25rem;
+        margin-top: 0rem;
+    }
+    .build .container .invoice-container .invoice-payment .invoice {
+        position: absolute;
+        bottom: 18.5rem;
+        margin-right: 2rem;
+        padding-right: 0rem;
+    }
+    .p-link {
+        position: absolute;
+        bottom: 1rem;
+        margin-right: 2rem;
+        padding-right: 0rem;
+    }
+    .box-container .createv p {
+        padding: 0 8rem;
+    } 
+    .box-container .better-container {
+        margin: 0 2rem;
+    }
+    .better, .new-revenue, .seamless {
+        padding: 1rem 2rem;
+        height: 24rem;
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+    
+    .grid .micro .microsoft {
+        right: 28rem;
+        bottom: 12;
+    } 
+    .unified-set h1 {
+        padding-right: 12rem;
+    }
+    .checkout {
+        gap: 4rem;
+    }
+    .features {
+        margin-top: 5rem;
+        margin-right: 0rem;
+    }
+    .checkout h2 {
+        font-size: 1.6rem;
+    }
+    .checkout p {
+        font-size: 1.3rem;
+        padding-right: 0rem;
+    }
+    .get-started {
+        padding: 1.1rem 1.7rem;
+    }
+    .image img {
+        width: 16rem;
+    }
+    .build .store-container .dest img {
+        width: 27rem;
+        height: 36rem;
+    }
+    .store-container .store {
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+    .invoice-container{
+        grid-template-columns: 62% 38%;
+        gap: 0rem;
+    }
+    .build .invoice-container .light img {
+        width: 28rem;
+        height: 25rem;
+        margin-top: 0rem;
+    }
+    .build .container .invoice-container .invoice-payment .invoice {
+        position: absolute;
+        bottom: 18.5rem;
+        margin-right: 2rem;
+        padding-right: 0rem;
+    }
+    .p-link {
+        position: absolute;
+        bottom: 1rem;
+        margin-right: 2rem;
+        padding-right: 0rem;
+    } 
+    .box-container .createv {
+        padding: 4rem 4rem 3rem 3rem;
+    }
+    .box-container .createv p {
+        padding: 0 6rem;
+    }   
+    .better, .new-revenue, .seamless {
+        height: 26rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 900px) {
+    .toggle-buttons {
+        display: flex;
+        right: 2.5rem;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+        background-color: white;
+    }
+    .navbar-links li .col:nth-child(3) {
+        margin-bottom: 2rem;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        overflow-y: scroll;
+        max-height: 38rem;
+        margin-top: 1rem;
+    }
+    .brand-title {
+        margin-left: 1rem;
+    }
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-links li {
+        text-align: left;
+    }
+    .navbar-links li a {
+        padding: .5rem .5rem;
+    }
+    .navbar-links li a p {
+        display: block;
+        font-size: 15px;
+        line-height: 0.5;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+    .signin{
+        display: block;
+        width: 94%;
+        margin: 1rem auto;
+        padding: .5rem;
+        background-color: #001133;
+        border-radius: .7rem;
+    }
+    li.signin a {
+        text-align: center;
+        color: white;
+    }
+    .dropdown {
+        overflow: hidden;
+    }
+    .dropdown-content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        min-width: 160px;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+        border-radius: 0;
+        z-index: 0;
+        animation: slideInFromBottom 0;
+        border-bottom: 1px dashed #444;
+    }
+    .dropdown .dropbtn {
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        margin-left: .5rem;
+    }
+
+    .head {
+        font-size: 2rem;
+        max-width: 58rem;
+        margin-top: 5rem;
+    }
+    .container{
+        padding: 0 1rem;
+    }
+    .grid .micro .microsoft {
+        right: 26rem;
+        bottom: 9rem;
+    } 
+    .grid .pic-p img, 
+    .grid .micro img {
+        height: 33rem;
+    }
+    .icons {
+        margin-top: 0rem;
+    }
+    .unified-set h1 {
+        font-size: 3rem;
+    }
+    .checkout {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .get-started {
+        padding: 1.1rem 1.7rem;
+    }
+    .image img {
+        width: 20rem;
+    }
+    .features {
+        margin-top: 1rem;
+        margin-right: .5rem;
+    }
+    .icons img {
+        width: 13rem;
+        height: 70px;
+        padding: 0 1.5rem;
+    }
+    .icons p {
+        font-size: 1.5rem;
+    }
+    #mu, #mtn {
+        width: 7.5rem;
+    }
+    #wise {
+        width: 9rem;
+    }
+    .checkout h2 {
+        font-size: 1.6rem;
+    }
+    .checkout p {
+        font-size: 1.3rem;
+    }
+    .image img {
+    margin-bottom: 1rem;
+    }
+    .easily {
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+    }
+    .make {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .accept-payments a {
+        font-size: 1.1rem;
+    }
+
+    .successful h1 {
+        font-size: 2.9rem;
+        letter-spacing: -0.1rem;
+        margin-bottom: 4rem;
+        font-weight: 900;
+    }
+    .make {
+        margin-bottom: 3rem;
+    }
+    .build {
+        margin-top: 2rem;
+    }
+    .store-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .build .store-container .dest img {
+        width: 100%;
+        height: 25rem;
+    }
+    .store-container .store {
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+    .invoice-container {
+        grid-template-columns: 100%;
+        gap: 1rem;
+    }
+    .build .invoice-container .light img {
+        width: 100%;
+        height: 25rem;
+        margin-top: 1rem;
+    }
+    .build .invoice-container .light {
+        order: 2;
+    }
+    .build .invoice-container .invoice-payment {
+        order: 1;
+    }
+    .build .container .invoice-container .invoice-payment .invoice {
+        position: relative;
+        bottom: 0rem;
+        margin-right: 0rem;
+        padding-right: 0rem;
+    }
+    .p-link {
+        position: relative;
+        bottom: 0rem;
+        margin-right: 0rem;
+        padding-right: 0rem;
+    }
+    button.start {
+        padding: 1rem 1.5rem;
+        border: none;
+        background-color: #001133;
+        border-radius: .5rem;
+        margin-top: 1rem;
+    }
+    button.start a {
+        color: #fff;
+        font-weight: bolder;
+    }
+    
+    
+    .build .parag .lets-play p {
+        font-size: 3.5rem;
+        line-height: 1.4;
+        padding-top: 2rem;
+    }
+    .build .parag .lets-play button {
+        padding: 1.8rem 2.2rem;
+        margin-bottom: 8rem;
+    }
+
+    .box-container .better-container {
+        margin: 0 1rem;
+    }
+    .box-container .createv {
+        padding: 4rem 2rem 3rem 2rem;
+        text-align: center;
+    }
+    .box-container .createv h2 {
+        font-size: 3rem;
+        line-height: 1;
+        margin: 1rem 0;
+        letter-spacing: 0.1rem;
+    }
+    .box-container .createv p {
+        font-size: 1.5rem;
+        padding: 2rem 3rem;
+        text-align: center;
+        margin: 0;
+    }
+    .box-container .createv button {
+        padding: 2rem 2rem;
+        margin-top: 1rem;
+    }
+    .box-container .createv button a {
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .box-container .createv p {
+        padding: 0 7rem;
+    }   
+    .better, .new-revenue, .seamless {
+        height: 26rem;
+    }
+    .new-revenue {
+        position: absolute;
+        right: 13.5rem;
+    }
+    
+    .documented {
+        margin-bottom: 2rem;
+    }
+    .documented .container h1 {
+        font-size: 3.5rem;
+        letter-spacing: 1.5;
+        padding-right: 1rem;
+    }
+    .documented .container p {
+        font-size: 1.5rem;
+        padding-right: 1rem;
+        max-width: 40rem;
+    }
+    .documented .container li {
+        color: grey;
+        font-size: 1.2rem;
+        line-height: 2.5;
+        list-style-type: symbols(O);
+    }
+    button.create { 
+            font-size: 1rem;
+            font-weight: 600;
+            padding: 1.8rem 2rem;
+    }
+    .documented .container ul {
+        margin-bottom: 3rem;
+    }
+
+
+    .global-reach {
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+    .currencies h1 {
+        font-size: 4rem;
+        margin-bottom: 6rem;
+    }
+    .list {
+        margin-bottom: 4rem;
+    }
+    .list p {
+        font-size: 1.1rem;
+        line-height: 1;
+        color: #2a2a2a;
+    }
+    .list h3 {
+        margin-bottom: 0;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    
+    
+    .ready {
+        margin-bottom: 6rem;
+    }
+    .started {
+        padding: 4rem 2rem;
+        border-radius: 1.5rem;
+        border: .1rem solid rgba(0, 0, 0, 0.1);
+        box-shadow: .5rem 2rem 3rem rgba(0, 0, 0, 0.2), .9rem 2rem 3rem rgba(0, 0, 0, 0.1); 
+    }
+    .started h2 {
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    .started p {
+        color: #fff;
+        font-size: 1.4rem;
+    }
+    .butt {
+        margin-top: 3rem;
+    }
+    button.arrange {
+        background-color: #fff;
+        color: #2a2a2a;
+        border: none;
+        padding: 1.5rem;
+        border-radius: .5rem;
+        font-weight: 550;
+        font-size: 1rem;
+    }
+    .butt a {
+        color: #fff;
+        font-weight: 400;
+        margin-left: 2rem;
+        text-align: center;
+    }
+
+
+    .flo .container {
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .dot {
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+    }
+    .bt {
+        border-top: 1px solid rgba(0, 0, 0, 0.06);
+        ;
+    }
+    .panel {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0;
+
+    }
+    .accordion:after {
+        content: '\2228';
+        font-size: 16px;
+        font-weight: bold;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+        border-radius: .5rem;
+        transition: 0.1s ease-in-out;
+    }
+    .active:after {
+        content: '\2227';
+    }
+    .policy a,
+    .niger a {
+        padding: 1rem;
+        display: block;
+    }
+    .niger,
+    .policy{
+        flex-direction: column;
+        padding: 0;
+    }
+    .flut {
+        order: 2;
+    }
+    .leg {
+        order: 1;
+    }
+    
+    .niger button.accordion {
+        display: block;
+        margin-top: 1rem;
+    }
+    .policy button.accordion{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .niger .order1 {
+        order: 1;
+    }
+    .niger .order2 {
+        order: 2;
+    }
+    
+    
+}
+
+@media screen and (max-width: 850px) {
+    .grid .pic-p .yanga {
+        bottom: 11rem;
+        left: 1rem;
+    }
+    .grid .micro .microsoft {
+        bottom: 11rem;
+        right: 25rem;
+    }
+    
+    .box-container .createv p {
+        padding: 1rem 4rem;
+    }   
+    .better, .new-revenue, .seamless {
+        height: 27rem;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .grid .micro .microsoft {
+        bottom: 11rem;
+        right: 23.5rem;
+    }  
+    .box-container .createv p {
+        padding: 1rem 2rem;
+    }   
+    .better, .new-revenue, .seamless {
+        height: 28rem;
+    }
+    .new-revenue {
+        position: absolute;
+        right: 11.5rem;
+    }
+}
+    
+    
+@media screen and (max-width: 750px) {
+    .grid {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .grid .pic-p img {
+        width: 100%; 
+        height: 25rem;
+    }
+    .grid .micro img {
+        width: 100%;
+        height: 25rem;
+    }
+    .grid .pic-p {
+        order: 1;
+        bottom: 0;
+        flex-basis: 100%;
+        margin: 0 1rem;
+    }
+    .grid .micro {
+        order: 2;
+        flex-basis: 100%;
+        margin: 0 1rem;
+    }
+    .grid .pic-p p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        max-width: 35rem;
+    }
+    .grid .pic-p .yanga {
+        top: 20rem;
+        right: 3rem;
+    }
+    .grid .micro .microsoft {
+        bottom: 0rem;
+        right: 3rem;
+    } 
+    .icons {
+        margin-top: 4rem;
+    }
+    .unified-set h1 {
+        padding-right: 1rem;
+    } 
+    .box-container .createv p {
+        padding: 1rem 0;
+    }
+    .better, .new-revenue, .seamless {
+        height: 31rem;
+    }
+    .new-revenue {
+        position: absolute;
+        right: 9rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .head {
+        font-size: 1.5rem;
+    }
+    .header .sell p {
+        max-width: 38rem;
+        font-size: 1.25rem;
+    }
+    .grid .pic-p p {
+        font-size: 1.1rem;
+    }
+    
+    .unified-set h1 {
+        font-size: 2.5rem;
+        font-weight: 900;
+        padding-right: 2rem;
+    }
+    .checkout {
+        grid-template-columns: 1fr;
+    }
+    .features {
+        margin-top: 1rem;
+        margin-right: .5rem;
+    }
+    .icons img {
+        width: 8rem;
+        height: 70px;
+        padding: 0 .7rem;
+    }
+    #mu, #mtn {
+        width: 5rem;
+    }
+    #wise {
+        width: 6rem;
+    }
+    .checkout h2 {
+        font-size: 1.3rem;
+    }
+    .checkout p {
+        font-size: 1.25rem;
+    }
+    .image img {
+    margin-bottom: 2rem;
+    }
+    .easily {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .make {
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    }
+    .accept-payments a {
+        font-size: 1.1rem;
+    }
+
+    .successful h1 {
+        font-size: 2.5rem;
+        letter-spacing: 1;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    .make {
+        margin-bottom: 3rem;
+    }
+    .build {
+        margin-top: 2rem;
+    }
+    .store-container {
+        grid-template-columns: 1fr;
+    }
+    .invoice-container {
+        grid-template-columns: 100%;
+    }
+    .invoice-container .invoice-payment {
+        order: 1;
+    }
+    .invoice-container .light {
+        order: 2;
+    }
+    .hide {
+        position: initial;
+    }
+    .build .store-container img {
+        width: 28rem;
+        height: 25rem;
+    
+    }
+    .build .invoice-container img {
+        width: 28rem;
+        height: 25rem;
+        margin-top: 1rem;
+    }
+    .store-container .store {
+        margin: 1rem 2rem 0 0;
+        padding: 0;
+        /* z-index: 1; */
+    }
+    .store-container .store h3 {
+        font-size: 1.5rem;
+    }
+    .store-container .store p {
+        font-size: 1.3rem;
+    }
+    button.start {
+        margin-bottom: 4rem;
+    }
+    .invoice-container {
+        margin-top: 2rem;
+    }
+    .invoice-payment {
+        padding-right: 1.5rem;
+        margin: 0 1rem 4rem 0;
+    }
+    .invoice-payment h3 {
+        font-size: 1.35rem;
+    }
+    .invoice-payment p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .invoice {
+        margin-bottom: 5rem;
+    }
+    .hide p {
+        line-height: 0.1;
+    }
+
+    .build .parag .lets-play p {
+        font-size: 2.5rem;
+        line-height: 1.4;
+        padding-top: 2rem;
+    }
+    .build .parag .lets-play button {
+        padding: 1.5rem 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .box-container {
+        padding: 0 0 3rem 1rem;
+    }
+    .box-container .createv {
+        padding: 2rem 1.1rem 3rem 1.2rem;
+    }
+    .box-container .createv h2 {
+        font-size: 2rem;
+        line-height: 1;
+        margin: 1rem 0;
+        letter-spacing: -0.2;
+    }
+    .box-container .createv p {
+        font-size: 1.2rem;
+        padding: 1rem;
+        margin: 0;
+    }
+    .box-container .createv button {
+        padding: 1.4rem 1.5rem;
+        margin-top: 1rem;
+    
+    }
+    .box-container .createv button a {
+        font-size: .8rem;
+    }
+    .box-container p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .box-container h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    .box-container .better-container {
+        flex-direction: column;
+        margin: 0 1rem;
+        align-items: center;
+    }
+    .better, .new-revenue, .seamless {
+        height: 14rem;
+        padding: 0 2rem;
+    }
+    .better {
+        z-index: 0;
+        width: 100%;
+        margin: 1rem;
+        box-shadow: none;
+    }
+    .new-revenue {
+        position: relative;
+        right: 0;
+        z-index: 0;
+        width: 100%;
+        margin: 1rem;
+        box-shadow: none;
+    }
+    .seamless {
+        position: relative;
+        right: 0;
+        z-index: 0;
+        width: 100%;
+        margin: 1rem;
+        box-shadow: none;
+    }
+    
+    .documented .container h1 {
+        font-size: 2.5rem;
+        letter-spacing: 1.5;
+        padding-right: 1rem;
+    }
+    .documented .container p {
+        font-size: 1.2rem;
+        padding-right: 1rem;
+    }
+    .documented .container li {
+        color: grey;
+        font-size: 1.2rem;
+        line-height: 2.5;
+        list-style-type: symbols(O);
+    }
+    button.create { 
+            font-size: .8rem;
+            font-weight: 600;
+    }
+    .documented .container ul {
+        margin-bottom: 3rem;
+    }
+
+
+    .currencies h1 {
+        font-size: 3rem;
+    }
+    .list {
+        margin-bottom: 4rem;
+    }
+    .list p {
+        font-size: 1.1rem;
+        line-height: 1;
+        color: #2a2a2a;
+    }
+    .list h3 {
+        margin-bottom: 0;
+    }
+    
+    
+    .ready {
+        margin-bottom: 6rem;
+    }
+    .started {
+        padding: 2rem;
+        border-radius: 1.5rem;
+        border: .1rem solid rgba(0, 0, 0, 0.1);
+        box-shadow: .5rem 2rem 3rem rgba(0, 0, 0, 0.2), .9rem 2rem 3rem rgba(0, 0, 0, 0.1); 
+    }
+    .started h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .started p {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    .butt {
+        margin-top: 3rem;
+    }
+    button.arrange {
+        background-color: #fff;
+        color: #2a2a2a;
+        border: none;
+        padding: 1.2rem;
+        border-radius: .5rem;
+        font-weight: 600;
+        font-size: 1rem;
+    
+    }
+    .butt a {
+        color: #fff;
+        font-weight: 400;
+        margin-left: 2rem;
+    }
+
+    .flo .container {
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+    .dot {
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+    }
+    .panel {
+        max-height: 0;
+        overflow: hidden;
+    }
+    .accordion:after {
+        content: '\2228';
+        font-size: 16px;
+        font-weight: bold;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+        border-radius: .5rem;
+        transition: 0.1s ease-in-out;
+    }
+    .active:after {
+        content: '\2227';
+    }
+    
+    .policy a,
+    .niger a {
+        padding: 1rem;
+        display: block;
+    }
+    .niger {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .policy {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .niger a {
+        display: block;
+    }
+    .flut {
+        order: 2;
+    }
+    .leg {
+        order: 1;
+    }
+    
+    
+}
