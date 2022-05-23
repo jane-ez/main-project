@@ -27,7 +27,7 @@ p {
     margin: .5rem;
 }
 .brand-title a {
-    color: #2a2a2a;
+    color: rgb(25, 25, 62);
 }
 /* the dropdown container */
 .dropdown {
@@ -39,7 +39,7 @@ p {
     font-size: 16px;
     border: none;
     outline: none;
-    color: #2a2a2a;
+    color: rgb(25, 25, 62);
     padding: 1.78rem 12px 0 12px;
     align-self: baseline;
     background-color: inherit;
@@ -53,26 +53,28 @@ p {
     position: absolute;
     font-size: 16px;
     font-weight: 500;
+    margin-top: .5rem;
     /* background-color: #f9f9f9; */
     border-radius: .5rem;
     min-width: 140px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    box-shadow: .1rem 8px 16px .1rem rgba(0, 0, 0, 0.2);
+    z-index: 20;
     animation: slideInFromBottom 1s;
 }
 /* links inside dropdown */
 .dropdown-content a {
     float: none;
-    color: #2a2a2a;
+    color: rgb(25, 25, 62);
     padding: 0 14px;
     margin-bottom: 1rem;
-
     text-decoration: none;
     display: block;
     text-align: left;
 }
 .dropdown-content h3 {
     margin: 0;
+    margin-top: 2rem;
+
 }
 .dropdown-content p {
     margin: .5rem 0;
@@ -97,7 +99,7 @@ p {
 }
 .navbar-links li a {
     text-decoration: none;
-    color: #2a2a2a;
+    color: rgb(25, 25, 62);
     padding: 1rem;
     display: block;
     margin: 0 .5rem;
@@ -109,8 +111,8 @@ p {
     display: none;
 }
 .signin {
-    background-color: #777;
-    padding: 0 2rem;
+    background-color: #f0f0f0;
+    padding: 0 1.5rem;
     border-radius: .5rem;
     margin-right: .5rem;
     margin-left: 6rem;
@@ -492,7 +494,7 @@ button.start a {
     transform: translate(-50%, 0);
     
     z-index: 5;
-    animation: anime 2s infinite;
+    animation: anime 3s infinite;
 }
 .anime2 {
     background-color: rebeccapurple;
@@ -504,7 +506,7 @@ button.start a {
     left: 50%; 
     transform: translate(-50%, 0);
     z-index: 4;
-    animation: sec 2s infinite;
+    animation: sec 3s infinite;
 }
 .anime3 {
     background-color: red;
@@ -516,7 +518,7 @@ button.start a {
     left: 50%; 
     transform: translate(-50%, 0);
     z-index: 3;
-    animation: first 2s infinite;
+    animation: first 3s infinite;
 }
 .anime4 {
     background-color: pink;
@@ -528,7 +530,7 @@ button.start a {
     left: 50%; 
     transform: translate(-50%, 0);
     z-index: 2;
-    animation: fist 2s infinite;
+    animation: fist 3s infinite;
 }
 @keyframes anime {
     0% {
@@ -698,6 +700,7 @@ button.start a {
 .better-container .better:hover,
 .better-container .new-revenue:hover {
     z-index: 10;
+    transform: translateX(3rem);
 }
 
 .documented .container h1 {
@@ -817,6 +820,7 @@ button.arrange {
     grid-template-columns: repeat(6, 1fr);
     justify-content: space-between;
     align-items: flex-start;
+    align-content: space-around;
     gap: 3rem;
 }
 .accordion {
@@ -847,7 +851,7 @@ button.arrange {
 }
 .flo .container p a{
     color: #2a2a2a;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 .dot {
     display: flex;
@@ -861,8 +865,8 @@ button.arrange {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    display: inline-block;
-    margin-left: .5rem;
+    display: inline;
+    margin: 0;
 }
 .niger,
 .policy {
@@ -875,6 +879,7 @@ button.arrange {
 .policy a,
 .niger a {
     padding: 1rem;
+    color: #2a2a2a;
 }
 .policy button.accordion,
 .niger button.accordion {

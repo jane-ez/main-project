@@ -865,7 +865,9 @@
         max-height: 0;
         overflow: hidden;
         padding: 0;
-
+    }
+    .accordion {
+        padding: 0;
     }
     .accordion:after {
         content: '\2228';
@@ -875,11 +877,13 @@
         float: right;
         margin-left: 5px;
         border-radius: .5rem;
-        transition: 0.1s ease-in-out;
+        transition: 0.35s ease-in-out;
     }
-    .active:after {
-        content: '\2227';
+    .accordion.active:after {
+        content: '\2228';
+        transform: rotate(-180deg);
     }
+    
     .policy a,
     .niger a {
         padding: 1rem;
@@ -893,8 +897,13 @@
     .flut {
         order: 2;
     }
+    .order1 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
     .leg {
         order: 1;
+        padding: 1rem 0;
     }
     
     .niger button.accordion {
@@ -1209,6 +1218,100 @@
         margin: 1rem;
         box-shadow: none;
     }
+    .anime1 {
+        width: 28rem;
+        height: 20rem;
+        border-radius: .5rem;
+        position: absolute;
+        top: 1rem;
+        left: 50%; 
+        transform: translate(-50%, 0);
+        
+        z-index: 5;
+        animation: anime 2s infinite;
+    }
+    
+    @keyframes anime {
+        0% {
+            width: 28rem;
+            height: 20rem;
+            border-radius: .5rem;
+            position: absolute;
+            top: 1rem;
+            right: 1rem; 
+            z-index: 5;
+        }
+        23% {
+            width: 14rem;
+            height: 20rem;
+            border-radius: .5rem;
+            position: absolute;
+            top: 4rem;
+            right: 4rem;
+            z-index: 2;
+        }
+    }
+    @keyframes first {
+        25% {
+            width: 28rem;
+            height: 20rem;
+            border-radius: .5rem;
+            position: absolute;
+            top: 1rem;
+            right: 1rem; 
+            z-index: 5;
+        }
+        48% {
+            width: 26rem;
+        height: 20rem;
+        border-radius: .5rem;
+        position: absolute;
+        top: 3rem;
+        right: 3rem;
+        z-index: 3;
+        }
+    }
+    @keyframes sec {
+        50% {
+            width: 28rem;
+            height: 20rem;
+            border-radius: .5rem;
+            position: absolute;
+            top: 1rem;
+            right: 1rem; 
+            z-index: 5;
+        }
+        73% {
+            width: 28rem;
+            height: 20rem;
+            border-radius: .5rem;
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            z-index: 4;
+        }
+    }
+    @keyframes fist {
+        75% {
+            width: 24rem;
+            height: 20rem;
+            border-radius: .5rem;
+            position: absolute;
+            top: 4rem;
+            right: 4rem;
+            z-index: 2;
+        }
+        100% {
+            width: 28rem;
+            height: 20rem;
+            border-radius: .5rem;
+            position: absolute;
+            top: 1rem;
+            right: 1rem; 
+            z-index: 5;
+        }
+    }
+    
     
     .documented .container h1 {
         font-size: 2.5rem;
