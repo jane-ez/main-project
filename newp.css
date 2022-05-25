@@ -40,6 +40,7 @@ p {
     border: none;
     outline: none;
     color: rgb(25, 25, 62);
+    font-weight: bold;
     padding: 1.78rem 12px 0 12px;
     align-self: baseline;
     background-color: inherit;
@@ -54,11 +55,10 @@ p {
     font-size: 16px;
     font-weight: 500;
     margin-top: .5rem;
-    /* background-color: #f9f9f9; */
     border-radius: .5rem;
     min-width: 140px;
     box-shadow: .1rem 8px 16px .1rem rgba(0, 0, 0, 0.2);
-    z-index: 20;
+    z-index: 10;
     animation: slideInFromBottom 1s;
 }
 /* links inside dropdown */
@@ -118,13 +118,7 @@ p {
     margin-left: 6rem;
     align-self: center;
 }
-/* .signin a {
-    text-decoration: none;
-    color: #fff;
-    padding: 1rem;
-    font-size: 14px;
-    display: block; 
-} */
+
 .navbar-links li a.color:hover {
     color: aqua;
 }
@@ -784,8 +778,7 @@ button.create {
     font-family: 'Goblin One', Georgia, 'Times New Roman', Times, serif;
     padding: 2rem 16rem 6rem 10rem;
     border-radius: 1.5rem;
-    border: .1rem solid rgba(0, 0, 0, 0.1);
-    box-shadow: .5rem 2rem 3rem rgba(0, 0, 0, 0.2), .9rem 2rem 3rem rgba(0, 0, 0, 0.1); 
+    box-shadow: 2rem 2rem 1.5rem 2rem rgba(0, 0, 0, 0.1); 
 }
 .started h2 {
     font-size: 50px;

@@ -875,6 +875,7 @@
         font-weight: bold;
         color: #777;
         float: right;
+        padding: 1rem 0;
         margin-left: 5px;
         border-radius: .5rem;
         transition: 0.35s ease-in-out;
@@ -1013,6 +1014,17 @@
         position: absolute;
         right: 9rem;
     }
+    .started h2 {
+        font-size: 3rem;
+    }
+    .started p {
+        color: #fff;
+        font-size: 1.4rem;
+    }
+    .butt {
+        margin-top: 3rem;
+    }
+    
 }
 
 
