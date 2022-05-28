@@ -234,6 +234,7 @@ p {
     border-radius: .5rem;
     font-weight: bold;
     margin-left: 1rem;
+    margin-top: 2rem;
 }
 .buttons a {
     text-decoration: none;
@@ -288,14 +289,14 @@ p {
     position: absolute;
     bottom: 8rem;
     right: 39rem;
-    color: red;
+    color: white;
     font-size: 25px;
     font-weight: 600;
     z-index: 1;
 } 
 
 .icons {
-    margin: 7rem auto;
+    margin: 0rem auto;
 }
 .icons p {
     font-size: 26px;
@@ -378,6 +379,7 @@ main.build {
 }
 .build .container {
     position: relative;
+    overflow: hidden;
 }
 .successful h1 {
     font-family: 'Goblin One' Georgia, 'Times New Roman', Times, serif;
@@ -392,15 +394,19 @@ span.green {
     color: rgb(52, 181, 131);
 }
 .store-container {
-    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-    z-index: 10;
 }
 .build .store-container .dest img {
-    width: 33rem;
-    height: 43rem;
+    max-width: 100%;
+    min-height: 40rem;
+}
+.build .invoice-container .light img {
+    min-height: 39rem;
+    max-width: 100%;
+    position: relative;
+    bottom: 6rem;
 }
 .store-container .store {
     margin-top: 6rem;
@@ -414,13 +420,13 @@ span.green {
 }
 .invoice-container {
     display: grid;
-    grid-template-columns: 64% 36%;
-    gap: 1rem;
+    justify-content: space-between;
+    grid-template-columns: 58% 37%;
+    gap: 5rem;
 }
-.build .invoice-container .light img {
-    width: 41rem;
-    height: 25rem;
-    margin-top: 1rem;
+.invoice-payment {
+    position: relative;
+    top: 3rem;
 }
 .invoice-payment h3 {
     font-size: 1.5rem;
@@ -428,18 +434,10 @@ span.green {
 .invoice-payment p {
     font-size: 1.4rem;
     margin-bottom: 1.5rem;
+    max-width: 20rem;
 }
-.build .container .invoice-container .invoice-payment .invoice {
-    position: absolute;
-    bottom: 20rem;
-    margin-right: 5rem;
-    padding-right: 2rem;
-}
-.p-link {
-    position: absolute;
-    bottom: 1rem;
-    margin-right: 5rem;
-    padding-right: 2rem;
+.invoice {
+    margin-bottom: 4rem;
 }
 button.start {
     padding: 1rem 1.5rem;
@@ -492,7 +490,7 @@ button.start a {
 }
 .anime2 {
     background-color: rebeccapurple;
-    width: 28rem;
+    max-width: 28rem;
     height: 20rem;
     border-radius: .5rem;
     position: absolute;
@@ -504,7 +502,7 @@ button.start a {
 }
 .anime3 {
     background-color: red;
-    width: 26rem;
+    max-width: 28rem;
     height: 20rem;
     border-radius: .5rem;
     position: absolute;
@@ -516,7 +514,7 @@ button.start a {
 }
 .anime4 {
     background-color: pink;
-    width: 24rem;
+    max-width: 28rem;
     height: 20rem;
     border-radius: .5rem;
     position: absolute;
@@ -528,7 +526,7 @@ button.start a {
 }
 @keyframes anime {
     0% {
-        width: 30rem;
+        max-width: 30rem;
         height: 20rem;
         border-radius: .5rem;
         position: absolute;
@@ -537,7 +535,7 @@ button.start a {
         z-index: 5;
     }
     23% {
-        width: 14rem;
+        max-width: 28rem;
         height: 20rem;
         border-radius: .5rem;
         position: absolute;
@@ -548,7 +546,7 @@ button.start a {
 }
 @keyframes first {
     25% {
-        width: 30rem;
+        max-width: 30rem;
         height: 20rem;
         border-radius: .5rem;
         position: absolute;
@@ -557,7 +555,7 @@ button.start a {
         z-index: 5;
     }
     48% {
-        width: 26rem;
+        max-width: 28rem;
     height: 20rem;
     border-radius: .5rem;
     position: absolute;
@@ -568,7 +566,7 @@ button.start a {
 }
 @keyframes sec {
     50% {
-        width: 30rem;
+        max-width: 30rem;
         height: 20rem;
         border-radius: .5rem;
         position: absolute;
@@ -577,7 +575,7 @@ button.start a {
         z-index: 5;
     }
     73% {
-        width: 28rem;
+        max-width: 28rem;
         height: 20rem;
         border-radius: .5rem;
         position: absolute;
@@ -588,7 +586,7 @@ button.start a {
 }
 @keyframes fist {
     75% {
-        width: 24rem;
+        max-width: 28rem;
         height: 20rem;
         border-radius: .5rem;
         position: absolute;
@@ -597,7 +595,7 @@ button.start a {
         z-index: 2;
     }
     100% {
-        width: 30rem;
+        max-width: 30rem;
         height: 20rem;
         border-radius: .5rem;
         position: absolute;
@@ -653,49 +651,47 @@ button.start a {
     text-align: center;
 }
 .box-container p {
-    color: white;
+    color: #f1f5f8;
     font-size: 1.1rem;
 }
 .box-container h4 {
     font-size: 1.3rem;
     color: white;
 }
-.box-container .better-container {
+.bette-container {
     display: flex;
+    flex-wrap: nowrap;
+    margin: 5rem;
     position: relative;
-    margin: 0 4rem;
-    padding: 2rem 0;
 }
-.better, .new-revenue, .seamless {
+.bex {
     background-color: #444;
-    box-shadow: .1rem 3rem 4rem rgba(0, 0, 0, 0.8);
+    box-shadow: .1rem 3rem 4rem 1rem rgba(0, 0, 0, 0.8);
     border-radius: 1rem;
-    min-width: 18rem;
-    height: 21rem;
-    min-height: 14rem;
-    padding: 1rem 3.5rem;
+    min-width: 50%;
+    width: 25rem;
+    padding: 2rem 3.5rem;
+    min-height: 11rem;
+    font-size: 1.5rem;
+
 }
-.better {
-    z-index: 3;
-    width: 45%;
+.bex p {
+    font-size: 1.2rem;
 }
-.new-revenue {
-    position: absolute;
-    right: 17rem;
-    z-index: 5;
-    width: 45%;
+.bex:first-child {
+    left: 5%;
 }
-.seamless {
-    position: absolute;
-    right: 0;
-    z-index: 7;
-    width: 45%;
+.mid {
+    position: relative;
+    top: 0;
+    right: 25%;
 }
-.better-container .better:hover,
-.better-container .new-revenue:hover {
-    z-index: 10;
-    transform: translateX(3rem);
+.bot {
+    position: relative;
+    right: 50%;
+    top: 0;
 }
+
 
 .documented .container h1 {
     font-family: 'Goblin One' Georgia, 'Times New Roman', Times, serif;
@@ -776,9 +772,11 @@ button.create {
     background-color: black;
     color: white;
     font-family: 'Goblin One', Georgia, 'Times New Roman', Times, serif;
-    padding: 2rem 16rem 6rem 10rem;
+    padding: 2rem 10rem 4rem 10rem;
     border-radius: 1.5rem;
-    box-shadow: 2rem 2rem 1.5rem 2rem rgba(0, 0, 0, 0.1); 
+    margin: 0 1.5rem;
+    box-shadow: .2rem 1.5rem 1.5rem 1.5rem rgba(0, 0, 0, 0.1); 
+    text-align: left;
 }
 .started h2 {
     font-size: 50px;
@@ -787,6 +785,7 @@ button.create {
 .started p {
     color: #fff;
     font-size: 1.4rem;
+    max-width: 45rem;
 }
 .butt {
     margin-top: 5rem;
@@ -796,25 +795,26 @@ button.arrange {
     color: #2a2a2a;
     border: none;
     padding: 1.5rem;
-    border-radius: 1rem;
-    font-weight: 600;
-    font-size: 1.09rem;
-
+    border-radius: .5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
 }
 .butt a {
     color: #fff;
-    font-weight: 700;
+    font-weight: 600;
     margin-left: 3rem;
 }
 
 
 .flo .container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    align-content: space-around;
-    gap: 3rem;
+    flex-wrap: nowrap;
+}
+button.accordion {
+    margin: 1rem 0;
 }
 .accordion {
     background-color: white;
@@ -826,7 +826,7 @@ button.arrange {
     text-align: left;
     outline: none;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
     transition: 0.4s;
 
 }
@@ -851,7 +851,6 @@ button.arrange {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 .green-dot {
     background-color: green;
@@ -869,6 +868,9 @@ button.arrange {
     padding: 2rem;
     border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
+.policy {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
 .policy a,
 .niger a {
     padding: 1rem;
@@ -879,13 +881,15 @@ button.arrange {
         display: none;
 }
 .niger .order2 button {
-    padding: .5rem 0;
     border: none;
     outline: none;
     background-color: white;
 }
 .niger .order2 button a {
     font-weight: 300;
+}
+footer {
+    margin-bottom: 1rem;
 }
 
 
