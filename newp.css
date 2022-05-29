@@ -520,7 +520,9 @@ button.start a {
     right: 50%;
     top: 0;
 }
-
+.bex:hover {
+    z-index: 10;
+}
 
 .documented .container h1 {
     font-family: 'Goblin One' Georgia, 'Times New Roman', Times, serif;
