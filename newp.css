@@ -325,9 +325,10 @@ p {
 .make {
     margin-top: 5rem;
 }
-.learn-more {
+a.learn-more {
     color: rgb(255, 81, 0);
     font-weight: bold;
+    font-size: 1rem;
 }
 .wrap {
     display: flex;
@@ -433,144 +434,6 @@ button.start a {
     color: #fff;
     font-weight: bold;
 }
-
-.div-container {
-    width: 100%;
-    height: 25rem;
-    margin-bottom: 6rem;
-    align-items: center;
-    position: relative;
-}    
-.anime1 {
-    background-color: aqua;
-    width: 30rem;
-    height: 20rem;
-    border-radius: .5rem;
-    position: absolute;
-    top: 1rem;
-    left: 50%; 
-    transform: translate(-50%, 0);
-    
-    z-index: 5;
-    animation: anime 3s infinite;
-}
-.anime2 {
-    background-color: rebeccapurple;
-    max-width: 28rem;
-    height: 20rem;
-    border-radius: .5rem;
-    position: absolute;
-    top: 2rem;
-    left: 50%; 
-    transform: translate(-50%, 0);
-    z-index: 4;
-    animation: sec 3s infinite;
-}
-.anime3 {
-    background-color: red;
-    max-width: 28rem;
-    height: 20rem;
-    border-radius: .5rem;
-    position: absolute;
-    top: 3rem;
-    left: 50%; 
-    transform: translate(-50%, 0);
-    z-index: 3;
-    animation: first 3s infinite;
-}
-.anime4 {
-    background-color: pink;
-    max-width: 28rem;
-    height: 20rem;
-    border-radius: .5rem;
-    position: absolute;
-    top: 4rem;
-    left: 50%; 
-    transform: translate(-50%, 0);
-    z-index: 2;
-    animation: fist 3s infinite;
-}
-@keyframes anime {
-    0% {
-        max-width: 30rem;
-        height: 20rem;
-        border-radius: .5rem;
-        position: absolute;
-        top: 1rem;
-        right: 1rem; 
-        z-index: 5;
-    }
-    23% {
-        max-width: 28rem;
-        height: 20rem;
-        border-radius: .5rem;
-        position: absolute;
-        top: 4rem;
-        right: 4rem;
-        z-index: 2;
-    }
-}
-@keyframes first {
-    25% {
-        max-width: 30rem;
-        height: 20rem;
-        border-radius: .5rem;
-        position: absolute;
-        top: 1rem;
-        right: 1rem; 
-        z-index: 5;
-    }
-    48% {
-        max-width: 28rem;
-    height: 20rem;
-    border-radius: .5rem;
-    position: absolute;
-    top: 3rem;
-    right: 3rem;
-    z-index: 3;
-    }
-}
-@keyframes sec {
-    50% {
-        max-width: 30rem;
-        height: 20rem;
-        border-radius: .5rem;
-        position: absolute;
-        top: 1rem;
-        right: 1rem; 
-        z-index: 5;
-    }
-    73% {
-        max-width: 28rem;
-        height: 20rem;
-        border-radius: .5rem;
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-        z-index: 4;
-    }
-}
-@keyframes fist {
-    75% {
-        max-width: 28rem;
-        height: 20rem;
-        border-radius: .5rem;
-        position: absolute;
-        top: 4rem;
-        right: 4rem;
-        z-index: 2;
-    }
-    100% {
-        max-width: 30rem;
-        height: 20rem;
-        border-radius: .5rem;
-        position: absolute;
-        top: 1rem;
-        right: 1rem; 
-        z-index: 5;
-    }
-}
-
 
 .box {
     margin-bottom: 5rem;
@@ -723,7 +586,7 @@ button.create {
 }
 .list p {
     font-size: 1.1rem;
-    line-height: 1;
+    line-height: 1.5;
     color: #2a2a2a;
 }
 .list h3 {
@@ -741,7 +604,7 @@ button.create {
     padding: 2rem 10rem 4rem 10rem;
     border-radius: 1.5rem;
     margin: 0 1.5rem;
-    box-shadow: .2rem 1.5rem 1.5rem 1.5rem rgba(0, 0, 0, 0.1); 
+    box-shadow: .2rem 1.5rem 1.5rem .5rem rgba(0, 0, 0, 0.2); 
     text-align: left;
 }
 .started h2 {
