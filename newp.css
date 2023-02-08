@@ -32,8 +32,10 @@ p {
 }
 /* the dropdown container */
 .dropdown {
-    float: left;
-    overflow: hidden;
+    /* float: left; */
+    /* overflow: hidden; */
+    position: relative;
+    z-index: 100;
 }
 /* dropdown button */
 .dropdown .dropbtn {
@@ -53,13 +55,13 @@ p {
 .dropdown-content {
     display: none;
     position: absolute;
+    min-width: 15rem;
+    background-color: white;
     font-size: 16px;
     font-weight: 500;
     margin-top: .5rem;
     border-radius: .5rem;
-    min-width: 9rem;
     box-shadow: .1rem 8px 16px .1rem rgba(0, 0, 0, 0.2);
-    z-index: 10;
     animation: slideInFromBottom 1s;
 }
 /* links inside dropdown */
@@ -679,11 +681,11 @@ button.accordion {
 }
 .accordion span {
     color: #2a2a2a;
-
 }
 .accordion i {
     visibility: hidden;
     padding: 0 1rem 2rem 1rem;
+    transition: transform .35s ease-out;
 }
 .active,
 .accordion:hover {
@@ -693,9 +695,7 @@ button.accordion {
     padding: 0;
     background-color: white;
     max-height: 100%;
-    /* overflow: hidden; */
     transition: max-height 0.2s ease-out;
-    /* border-top: 1px solid rgba(0, 0, 0, 0.09); */
 }
 .flo .container p a{
     color: #2a2a2a;
@@ -746,7 +746,6 @@ button.accordion {
 footer {
     margin-bottom: 1rem;
 }
-
 
 
 @keyframes slideInFromBottom {
