@@ -492,7 +492,6 @@ button.start a {
     flex-wrap: nowrap;
     margin: 5rem;
     position: relative;
-    overflow: hidden;
 }
 .bex {
     background-color: #444;
@@ -503,7 +502,7 @@ button.start a {
     padding: 2rem 3.5rem;
     min-height: 11rem;
     font-size: 1.5rem;
-    transition: transform .5s ease-out;
+
 }
 .bex p {
     font-size: 1.2rem;
@@ -521,20 +520,8 @@ button.start a {
     right: 50%;
     top: 0;
 }
-.first:hover ~ .bex {
-    transform: translateX(40%);
-}
-.mid:hover ~ .bot {
-    transform: translateX(40%);
-}
-@media screen and (max-width: 600px) {
-    .first:hover ~ .bex {
-        transform: translateX(0);
-    }
-    .mid:hover ~ .bot {
-        transform: translateX(0);
-    }
-    
+.bex:hover {
+    z-index: 10;
 }
 
 .documented .container h1 {
