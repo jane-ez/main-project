@@ -631,10 +631,7 @@
     .accordion {
         padding: 0;
     }
-    .accordion i {
-        visibility: visible;
-    }
-    /* .accordion:after {
+    .accordion:after {
         content: '\2228';
         font-size: 16px;
         font-weight: bold;
@@ -648,7 +645,7 @@
     .accordion.active:after {
         content: '\2228';
         transform: rotate(-180deg);
-    } */
+    }
     
     .policy a,
     .niger a {
@@ -1031,6 +1028,7 @@
         margin-left: 1rem;
     }
 
+
     .dot {
         justify-content: flex-start;
         align-items: center;
@@ -1040,7 +1038,7 @@
         max-height: 0;
         overflow: hidden;
     }
-    /* .accordion:after {
+    .accordion:after {
         content: '\2228';
         font-size: 16px;
         font-weight: bold;
@@ -1049,7 +1047,10 @@
         margin-left: 5px;
         border-radius: .5rem;
         transition: 0.1s ease-in-out;
-    } */
+    }
+    .active:after {
+        content: '\2227';
+    }
     
     .policy a,
     .niger a {
